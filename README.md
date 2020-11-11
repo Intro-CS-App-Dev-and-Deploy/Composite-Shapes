@@ -39,36 +39,40 @@ What does "commenting code out" mean?
 - [Enrichment] Using my dynamic program, I will create subprograms attempting to ease human reading
 
 ## Expectations
-- Use key variables `width` & `height` or `displayWidth` & `displayHeight` instead of numbers to populate variables
+- Use `size()` key variables `width` & `height` or `fullScreen()` key variables `displayWidth` & `displayHeight` instead of numbers to populate variables
   - Called Display Geometry
-- CAUTION: each variable must be figured out, one at a time
-  - Use paperfolding to imagine ratios
-  - There is more than one answer
-
+  - See Example Face with Changing Display Geometry to view illustrative example of making computer do arithmetic
 - Modular Programming: able to program without affecting other lines of code
 - START: rectangles, circles, or lines named for their represented object
   - See Prototyping 2D Primitives for simple rectangle with inscribed circle
   - See Associated Video building this from paper folding
 - Create Pseudo Code (Visual and Words) laying out space in GUI ( See Prototyping 2D Primitives / Laying Out Shapes / BasicShapes)
+  - CAUTION: each variable must be figured out, one at a time
+  - Use paperfolding to imagine ratios
+  - There is more than one answer
 - Develop each space by inscribing other shapes based on parameters ( See Prototyping 2D Primitives / rectCircle )
 - Create a Flat Static Program with a Face and one measle
   - See Flat Measles Exemplar
-
-**CONTINUE HERE**
-
-
-
-
+- Create Dynamic Programs
+  - Start with Measles_Rect_PC.pde
+  - Build program like `Copy and Paste Dynamic / Measles.pde`
+- Using Dynamic Programming, repeat the measles on the face but not coving the eyes, nose or mouth (see CAUTION Answers / Dynamic Layering / Measles.pde)
+  - Called structured order of execution (Structural Programming)
+- Continue by limiting the measles by going around the face an only on the face
+  - uses `random()` and original `rect()` for the face shape
+  - See CAUTION Answers / Dynamic Rando / Measles.pde
+- [Enrichment] use `TAB` to create `subprograms` and `main program` easing human reading of code
 
 ## Instructions, Vocabulary, & Explanations (Including URLs and IDE Use)
+- Prototype on a Piece of Paper (need to layout ratios of where objects are)
 - Draw a large rectangle
 - Inscribe a face
   - See Prototyping 2D Primitives for simple rectangle with inscribed circle to illustrate Variable Population
 - Add a repeating and random measles to the face
 
+Hints with measles project: easier to paperfold centers of circles than rectangles
 
-- Measles Project: easier to paperfold centers of circles than rectangles
-  - See Mr. Mercer for alternatives
+Discuss with Mr. Mercer any alternative projects and how the grading might change
 
 ## Blocks of code, Emphasized Functions
 - Variable Initiation
@@ -107,14 +111,14 @@ Other 2D Primitives found at https://processing.org/reference/
 
 **Note: for projects other than a face, see Mr. Mercer about grading changes**
 
-- [] Changing the Display Geometry does not change the GUI
+- [1] Changing the Display Geometry does not change the GUI
   - See exemplar that will not get a grade for this ( See Example Face with Changing Display Geometry / Square Geometry )
   - Change `size()` parameters to see result
-- [] Program lays out spaces for eyes, nose, mouth, and overall face
-- [] Program develops each space with additional features
-- [] Program illustrates repeating feature like Measles
-- [] Program draws measles only on face, not eyes, mouth or nose
-- [] Program draws measles only on face, not beside face shape (either with optical illusion or other techniques)
+- [1] Program lays out spaces for eyes, nose, mouth, and overall face
+- [1] Program develops each space with additional features
+- [1] Program illustrates repeating feature like Measles
+- [1] Program draws measles only on face, not eyes, mouth or nose
+- [1] Program draws measles only on face, not beside face shape (either with optical illusion or other techniques)
 
 ## Additional Information to Answer Questions
 

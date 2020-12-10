@@ -1,3 +1,4 @@
+//Global Variables
 int reset;
 int rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
 int circleNoseX, circleNoseY, circleNoseWidth, circleNoseHeight;
@@ -11,9 +12,11 @@ color red = #FF0303;
 color measlesColor = red;
 float measlesX, measlesY, measlesDiameter;
 //
-size (600, 400);
+//Display Geometry
+size (600, 400); //Landscape, Portrait, or Square?
 //Portrait Geometry, height is smaller thus dimension of face (circle)
 //
+//Populating Variables
 rectFaceX = width/2 - height/2; //See paperfolding
 rectFaceY = height*0;
 rectFaceWidth = height; //circle
@@ -50,6 +53,7 @@ mouthY2 = mouthY1;
 mouthThick = height*1/20;
 reset = 1;
 //
+//Face
 rect(rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight);
 ellipse(faceX, faceY, faceDiameter, faceDiameter);
 //
@@ -62,8 +66,6 @@ triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
 strokeWeight(mouthThick);
 line(mouthX1, mouthY1, mouthX2, mouthY2);
 strokeWeight(reset);
-//
-
 //
 //rect(rectMouthX, rectMouthY, rectMouthWidth, rectMouthHeight);
 //

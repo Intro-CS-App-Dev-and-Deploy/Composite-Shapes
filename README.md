@@ -135,4 +135,28 @@ Why do measles draw outside the original rectangle (even just a little, like a r
 
 # To Include
 
+Additional Explanations and Instructions to Students
+
+Solve programming issues related to
+- layering so canvas is not dynamically changing in "weird" ways
+- randomly choosing ranges for parameters when drawing 2D shapes (i.e. measles)
+- creating a main program that is more readable (using variable names and subprograms or methods)
+
+"Using Happy Face Metaphor as a project"
+
+Layering & Choosing proper ranges of values
+Explore how to solve:
+- measles not on eyes, mouth, or nose
+- measles only on face
+- measles not overhanging
+
+Acceptable answer: draw a few features that the measles will "layer under", similar to the solution for the eyes, mouth, and nose
+
+Enrichment: creating a "Readable" Main Program look like with subprograms
+
+Additions
+- Features of the metaphor, drawn in 2D Shapes (i.e. add more than a simple face)
+- Add some text
+- Add a few images (i.e. image in the eye "pupil", etc.)
+
 ---

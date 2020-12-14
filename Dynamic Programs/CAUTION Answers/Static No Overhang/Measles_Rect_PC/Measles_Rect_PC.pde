@@ -73,7 +73,7 @@ strokeWeight(reset);
 //
 measlesDiameter = random(height*1/20, height*1/10);
 measlesX = random(rectFaceX+measlesDiameter, rectFaceX+rectFaceWidth-measlesDiameter);
-measlesY = random(height);
+measlesY = random(height*0+measlesDiameter, height-measlesDiameter);
 // measlesDiameter is moved to before measlesX
 fill(measlesColor);
 //Parameters are randomly set ;)

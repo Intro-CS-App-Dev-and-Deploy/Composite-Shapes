@@ -59,6 +59,7 @@ void setup() {
 }//End setup
 
 void draw() {
+  //Canvas
   measlesX = random(rectFaceX, rectFaceX+rectFaceWidth);
   measlesY = random(rectFaceY, rectFaceY+rectFaceHeight);
   measlesDiameter = random(height*1/20, height*1/10);

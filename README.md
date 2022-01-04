@@ -160,3 +160,18 @@ Additions
 - Add a few images (i.e. image in the eye "pupil", etc.)
 
 ---
+
+# To Include: Suggested Program Order
+- Prototyping 2D Images: Static Program
+  - rectCircle
+  - Laying Out Shapes
+
+Dynamic Programs introduces IF-type rectangles and Button-Code
+
+Other Program Examples
+- Misc Teaching Examples illustrate geometry
+- Flat Measles Exemplar illustrates pseudocode & functions together in static program
+
+Student Exemplars Combine Future Lessons into exemplar 
+
+---

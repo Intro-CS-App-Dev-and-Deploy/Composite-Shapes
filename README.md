@@ -172,6 +172,13 @@ Other Program Examples
 - Misc Teaching Examples illustrate geometry
 - Flat Measles Exemplar illustrates pseudocode & functions together in static program
 
-Student Exemplars Combine Future Lessons into exemplar 
+Student Exemplars Combine Future Lessons into exemplar
 
 ---
+
+Progressions
+- Pseudo code
+- Display Orientation: introduces cell phone orientation
+- Drawing a face
+- Drawing a Measles
+-

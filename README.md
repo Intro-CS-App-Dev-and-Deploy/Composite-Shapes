@@ -10,6 +10,10 @@ Illustrative Example: Hover over in Chrome
 
 *We will explore possible code for this.*
 
+**NOTE**: use https://processing.org/reference & CTRL-f to see reference pages for "2D Primitives"
+
+---
+
 ## New Beginning Information
 
 **All vocabulary and questions can be *Googled* using Pure-JAVA or Processing-JAVA**

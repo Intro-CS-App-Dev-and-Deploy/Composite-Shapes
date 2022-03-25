@@ -183,6 +183,6 @@ Student Exemplars Combine Future Lessons into exemplar
 Progressions
 - Pseudo code
 - Display Orientation: introduces cell phone orientation
-- Drawing a face
+- Drawing a face: see GUI design of ```flatMealses.pde```
 - Drawing a Measles
 -

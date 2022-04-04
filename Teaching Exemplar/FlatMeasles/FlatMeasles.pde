@@ -87,7 +87,7 @@ float measleRadius = measleDiameter*1/2;
 float measleX = random( rectFaceX+measleRadius, (( rectFaceX+rectFaceWidth ) - measleRadius ) );
 float measleY = random( rectFaceY+measleRadius, (( rectFaceY+rectFaceHeight ) - measleRadius ) );
 color red=#FF0000, measleColour=red, whiteReset=#000000; //Note: need range here too
-color measleRandomNight = color( random(255), random(70), random(0) ); 
+color measleRandomNight = color( random(0, 255), random(70), random(0) ); 
 color measleRandomDay = color( random(255), random(70), random(30) ); //See File / Colour Selector for specific values
 Boolean dayMode=false, nightMode=false; //Note: IF-ELSE reduces number of variables
 //rect();

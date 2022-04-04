@@ -25,11 +25,11 @@ if ( orientation==p ) println(instruct);
 //With Strings, easier to print to console or canvas
 /*
 if ( orientation=="Landscape or Square" ) {
-  //Empty IF
-} else { 
-  println("Turn your phun"); //FUN
-}
-*/
+ //Empty IF
+ } else { 
+ println("Turn your phun"); //FUN
+ }
+ */
 //
 //Variable Population: notice using appWidth & appHeight to move between size() & fullScreen()
 smallerDisplayDimesion = appHeight; //ALWAYS in Landscape
@@ -82,14 +82,25 @@ line(mouthX1, mouthY1, mouthX2, mouthY2);
 strokeWeight(reset); //reset to 1 pixel
 //
 //Measle
-float measleDiameter = random( smallerDisplayDimesion*1/100 , smallerDisplayDimesion*1/25); //Range of measle size: small=*1/100, large=4xbigger (*1/25)
+float measleDiameter = random( smallerDisplayDimesion*1/100, smallerDisplayDimesion*1/25 ); //Range of measle size: small=*1/100, large=4xbigger (*1/25)
 float measleRadius = measleDiameter*1/2;
-float measleX = random( rectFaceX+measleRadius , (( rectFaceX+rectFaceWidth ) - measleRadius ) );
-float measleY = random( rectFaceY+measleRadius , (( rectFaceY+rectFaceHeight ) - measleRadius ) );
+float measleX = random( rectFaceX+measleRadius, (( rectFaceX+rectFaceWidth ) - measleRadius ) );
+float measleY = random( rectFaceY+measleRadius, (( rectFaceY+rectFaceHeight ) - measleRadius ) );
 color red=#FF0000, measleColour=red, whiteReset=#000000; //Note: need range here too
+color measleRandomNight = color( random(255), random(70), random(0) ); 
+color measleRandomDay = color( random(255), random(70), random(30) ); //See File / Colour Selector for specific values
+Boolean dayMode=false, nightMode=false; //Note: IF-ELSE reduces number of variables
 //rect();
 //random values given other variables (similar to button code)
 noStroke(); //Shape outline
+//
+//note: use single line IF and Boolean to fill measle; OR, IF-ELSE
+if ( nightMode==true ) { //Day and Night Modes for colour
+  measleColour = measleRandomNight;
+} else { 
+  measleColour = measleRandomDay;
+}//End Day or Night Modes
+//
 fill(measleColour);
 ellipse( measleX, measleY, measleDiameter, measleDiameter ); 
 stroke(reset); //reset to 1 pixel

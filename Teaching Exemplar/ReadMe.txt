@@ -15,6 +15,12 @@ Drawing measle
 - review ellipse()
 - intro fill(), noStroke(), stroke(), and "reseting defaults
 - introduce random()
+- introduce smaller value and larger value of random related to ratios 
+  - CAUTION: ratios can get confused with larger and smaller faction numbers
 - introduce concepts of "half-off screen" and "only in division of face"
 
+Advanced: what is the range of Red Colour ???
+
 To think about: only on face, not on eyes, mouth, or nose
+
+Next Step: develop Dynamic Program

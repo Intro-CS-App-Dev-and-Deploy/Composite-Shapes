@@ -145,5 +145,6 @@ Dynamic Programs introduces IF-type rectangles and Button-Code
 - Quit Button (optional here), will not be in 3-by-3 assignment
 - Measles On-off Button
 - Put Measles code behind procedure (void) in draw()
+- Keyboard or Mouse Night Mode activation
 
 ---

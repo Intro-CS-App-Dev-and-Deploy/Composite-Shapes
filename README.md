@@ -139,50 +139,11 @@ Why do measles draw outside the original rectangle (even just a little, like a r
 
 # To Include
 
-Additional Explanations and Instructions to Students
-
-Solve programming issues related to
-- layering so canvas is not dynamically changing in "weird" ways
-- randomly choosing ranges for parameters when drawing 2D shapes (i.e. measles)
-- creating a main program that is more readable (using variable names and subprograms or methods)
-
-"Using Happy Face Metaphor as a project"
-
-Layering & Choosing proper ranges of values
-Explore how to solve:
-- measles not on eyes, mouth, or nose
-- measles only on face
-- measles not overhanging
-
-Acceptable answer: draw a few features that the measles will "layer under", similar to the solution for the eyes, mouth, and nose
-
-Enrichment: creating a "Readable" Main Program look like with subprograms
-
-Additions
-- Features of the metaphor, drawn in 2D Shapes (i.e. add more than a simple face)
-- Add some text
-- Add a few images (i.e. image in the eye "pupil", etc.)
-
----
-
-# To Include: Suggested Program Order
-- Prototyping 2D Images: Static Program
-  - rectCircle
-  - Laying Out Shapes
+Change repository to follow teaching exemplars and ReadMe.txt files
 
 Dynamic Programs introduces IF-type rectangles and Button-Code
-
-Other Program Examples
-- Misc Teaching Examples illustrate geometry
-- Flat Measles Exemplar illustrates pseudocode & functions together in static program
-
-Student Exemplars Combine Future Lessons into exemplar
+- Quit Button (optional here), will not be in 3-by-3 assignment
+- Measles On-off Button
+- Put Measles code behind procedure (void) in draw()
 
 ---
-
-Progressions
-- Pseudo code
-- Display Orientation: introduces cell phone orientation
-- Drawing a face: see GUI design of ```flatMealses.pde```
-- Drawing a Measles
--

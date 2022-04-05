@@ -41,8 +41,8 @@ rectFaceHeight = smallerDisplayDimesion; //Square Shape
 faceX = appWidth*1/2;
 faceY = appHeight*1/2;
 faceDiameter = smallerDisplayDimesion;
-leftEyeX = appWidth*1.4/4;
-rightEyeX = appWidth*2.6/4;
+leftEyeX = appWidth*1/2 - smallerDisplayDimesion*1/4.9;
+rightEyeX = appWidth*1/2 + smallerDisplayDimesion*1/4.9;
 leftEyeY = appHeight*1/4;
 rightEyeY = leftEyeY; //Best Practice: change one line of code
 eyeDiameter = smallerDisplayDimesion*1/4;
@@ -50,13 +50,13 @@ mouthX1 = leftEyeX;
 mouthY1 = appHeight*3/4;
 mouthX2 = rightEyeX;
 mouthY2 = mouthY1;
-mouthOpen = smallerDisplayDimesion*1/4;
+mouthOpen = smallerDisplayDimesion*1/4; //testing: 100=400/4, mouthOpen=height*1/4
 xNose1 = faceX;
 yNose1 = leftEyeY;
 xNose2 = faceX - leftEyeY*1/2;
-yNose2 = faceY ;
+yNose2 = faceY;
 xNose3 = faceX + leftEyeY*1/2;
-yNose3 = faceY ;
+yNose3 = faceY;
 //
 //Face: Circle = Inscribing a Circle in a Square
 //Center a circle on display orientation
@@ -77,7 +77,7 @@ triangle(xNose1, yNose1, xNose2, yNose2, xNose3, yNose3);
 //
 //Mouth
 //rect();
-strokeWeight(mouthOpen); //testing: 100=400/4, mouthOpen=height*1/4
+strokeWeight(mouthOpen);
 line(mouthX1, mouthY1, mouthX2, mouthY2);
 strokeWeight(reset); //reset to 1 pixel
 //

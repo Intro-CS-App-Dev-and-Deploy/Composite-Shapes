@@ -26,6 +26,8 @@ Randomly choose a colour for day-time move and night mode
 
 Student Review of Variable Coordinates - complete the rect() for eyes, nose and mouth
 
+Student Review of Variables - complete rect() for measle
+
 To think about: only on face, not on eyes, mouth, or nose
 
 Next Step: develop Dynamic Program

@@ -19,7 +19,12 @@ Drawing measle
   - CAUTION: ratios can get confused with larger and smaller faction numbers
 - introduce concepts of "half-off screen" and "only in division of face"
 
-Advanced: what is the range of Red Colour ???
+Randomly choose a colour for day-time move and night mode
+- Demonstrate how to choose a colour in Colour Selector
+- Demonstrate Random
+- Demonstrate ternary operator to fill a variable (similar to IF-ELSE)
+
+Student Review of Variable Coordinates - complete the rect() for eyes, nose and mouth
 
 To think about: only on face, not on eyes, mouth, or nose
 

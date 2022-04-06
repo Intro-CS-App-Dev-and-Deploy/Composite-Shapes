@@ -33,7 +33,7 @@ if ( orientation=="Landscape or Square" ) {
 //
 //Variable Population: notice using appWidth & appHeight to move between size() & fullScreen()
 smallerDisplayDimesion = appHeight; //ALWAYS in Landscape
-reset = smallerDisplayDimesion / smallerDisplayDimesion; //returns "1" //default value for reseting parameters
+reset = smallerDisplayDimesion / smallerDisplayDimesion; //returns "1"
 rectFaceX = (appWidth*1/2) - (smallerDisplayDimesion*1/2);
 rectFaceY = appHeight*0;
 rectFaceWidth = smallerDisplayDimesion; //Square Shape
@@ -96,7 +96,11 @@ Boolean nightMode=false; //Note: IF-ELSE similar to ternary operator
 color measleColour = ( nightMode==false ) ? color( 255, random(0,50), random(120) ) : color( 255, random(0,50), 0 ) ; //ternary operator for day:night
 color whiteReset=#000000;
 //
-//rect();
+float measleRectX = measleX-measleDiameter*1/2;
+float measleRectY = measleY-measleDiameter*1/2;
+float measleWidth = measleDiameter;
+float measleHeight = measleDiameter;
+rect( measleRectX, measleRectY, measleWidth, measleHeight );
 //random values given other variables (similar to button code)
 noStroke(); //Shape outline
 fill(measleColour);

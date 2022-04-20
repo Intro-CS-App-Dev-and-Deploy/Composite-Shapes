@@ -149,7 +149,7 @@ Dynamic Programs introduces IF-type rectangles and Button-Code
 
 ---
 
-### Alternate Measles on Face Algorithm using Pythagorean Thereom
+### Alternate Measles on Face Algorithm using Pythagorean Theorem
 
 See Private Mercer's Kitchen Repository: https://github.com/Intro-CS-App-Dev-and-Deploy/Alternate-Measles-on-Face-Solution
 

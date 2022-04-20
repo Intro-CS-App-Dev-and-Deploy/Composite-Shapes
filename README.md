@@ -148,3 +148,11 @@ Dynamic Programs introduces IF-type rectangles and Button-Code
 - Keyboard or Mouse Night Mode activation
 
 ---
+
+### Alternate Measles on Face Algorithm using Pythagorean Thereom
+
+See Private Mercer's Kitchen Repository: https://github.com/Intro-CS-App-Dev-and-Deploy/Alternate-Measles-on-Face-Solution
+
+Note: ReadMe.md repeats conditional and references line
+
+---

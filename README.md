@@ -156,3 +156,8 @@ See Private Mercer's Kitchen Repository: https://github.com/Intro-CS-App-Dev-and
 Note: ReadMe.md repeats conditional and references line
 
 ---
+
+### Alternate Measles on Face Alogrithm, descripoint only
+- Use `background();` only to cover measles that are drawn to the canvas and fall outside the face ellipse()
+
+---

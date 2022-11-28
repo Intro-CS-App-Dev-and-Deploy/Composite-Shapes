@@ -8,20 +8,20 @@ void setup() {
 }//End setup
 //
 void draw() {
-  //OS System Button
-  //Start Button | Measles Reset Button
-  //Theme: measles wtih different sizes and colours
-  }//End draw
+  //OS System Start Button
+  //Splash Screen Level start button | Measles Reset Button
+  //Theme: measles with different sizes and colours
+}//End draw
 //
 void keyPressed() {
   //KeyBoard Shortcuts
 }//End keyPressed
 //
 void mousePressed() {
-  //OS System Button
-  //Start Button
+  //OS System Start Button
+  //Splash Screen Start Button
   //Quit Button
-  //Night Mode
+  //Night Mode (includes day mode)
 }//End mousePressed
 //
 //End MAIN Program

@@ -142,10 +142,16 @@ Why do measles draw outside the original rectangle (even just a little, like a r
 Change repository to follow teaching exemplars and ReadMe.txt files
 
 Dynamic Programs introduces IF-type rectangles and Button-Code
-- Quit Button (optional here), will not be in 3-by-3 assignment
+- Theme for project, i.e. Measles on the Face, snow globe
+- Two start buttons with instructions (this will also introduce the rest button)
+- Quit Button
 - Measles On-off Button
-- Put Measles code behind procedure (void) in draw()
-- Keyboard or Mouse Night Mode activation
+- Drawing Shapes and Laying Shapes
+- Repeating shape has variety of colour and size (i.e. circles do not overlap "off face")
+  - Use mathematical formula (comparing diameters, distance formula, Pythagorean Therom)
+- Night Mode
+- Images and Text
+- Background Image with tint()
 
 ---
 
@@ -157,7 +163,7 @@ Note: ReadMe.md repeats conditional and references line
 
 ---
 
-### Alternate Measles on Face Alogrithm, descripoint only
+### Alternate Measles on Face Algorithm, descriptions only
 - Use `background();` only to cover measles that are drawn to the canvas and fall outside the face ellipse()
 
 ---

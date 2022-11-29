@@ -4,6 +4,7 @@ int appWidth, appHeight;
 void setup() {
   //Display & Orientation
   size(600, 400); 
+  //fullScreen(); //displayWidth & displayHeight
   displayOrientation();
   appWidth = width;
   appHeight = height;

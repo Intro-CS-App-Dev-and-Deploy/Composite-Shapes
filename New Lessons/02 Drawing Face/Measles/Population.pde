@@ -1,14 +1,17 @@
 void population() {
-  float centerX = appWidth*1/2;
-  float centerY = appHeight*1/2;
+  float centerX = appWidth * 1/2;
+  float centerY = appHeight * 1/2;
   //
-  rectFaceX = centerX - appHeight*1/2;
+  float smallerDimension;
+  smallerDimension = ( landscape==true ) ? height : width; //ternary operator
+  //
+  rectFaceX = centerX - smallerDimension*1/2;
   rectFaceY = appHeight * 0;
-  rectFaceWidth = appHeight;
-  rectFaceHeight = rectFaceWidth; //rectFace is square
+  rectFaceWidth = smallerDimension;
+  rectFaceHeight = smallerDimension;
   faceX = centerX;
-  faceY  = centerY;
-  faceDiameter = appHeight;
+  faceY = centerY;;
+  faceDiameter = smallerDimension;
   //
 } //End Population
 //

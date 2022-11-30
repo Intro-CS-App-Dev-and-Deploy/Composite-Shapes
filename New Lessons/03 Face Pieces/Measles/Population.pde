@@ -26,7 +26,12 @@ void population() {
   mouthY2 = mouthY1;
   mouthOpen = smallerDimension*1/4;
   //
-  
+  xNose1 = faceX;
+  yNose1 = leftEyeY;
+  xNose2 = faceX - leftEyeY*1/2;
+  yNose2 = faceY ;
+  xNose3 = faceX + leftEyeY*1/2;
+  yNose3 = faceY ;
 } //End Population
 //
 // End Population Subprogram

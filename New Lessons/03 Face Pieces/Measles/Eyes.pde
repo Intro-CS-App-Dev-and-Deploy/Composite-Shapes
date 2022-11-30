@@ -10,6 +10,9 @@ void eyes() {
  */
 //
 void leftEye() {
+  //Logical Rectangle for Left Eye, teacher demo, repeated below
+  //Purpose: no measles in eye
+  //Easier layering method
   rect(leftEyeX-eyeDiameter*1/2, leftEyeY-eyeDiameter*1/2, eyeDiameter, eyeDiameter);
   ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
 } //End leftEye

@@ -2,6 +2,10 @@
 NOTE: be sure to review the Face Pieces 
 - These might eventually be put in a single procedure
 
+Teaching Method
+- create variables in subprogram, then move them to population
+- X&Y: logical rectangle with radius consideration
+
 TEACHER Directed: adding the measles
 - start wtih drawing measle anywhere, diameter is from smallerDimension
 - remove stroke
@@ -17,3 +21,4 @@ Advanced
 - Check if X & Y are inside equation for circle, give equation for circle
 - ( x-h )^2 + ( x-k )^2 = r^2
 - Note: h,k is centerX & centerY
+

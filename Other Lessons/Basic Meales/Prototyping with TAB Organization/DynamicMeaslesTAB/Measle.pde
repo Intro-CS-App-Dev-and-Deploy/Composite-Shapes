@@ -4,7 +4,7 @@ float measleRectX, measleRectY, measleWidth, measleHeight;
 color measleColour;
 //
 void measleDraw() {
-  //Measle
+  //Measle Population (to be moved to Population)
   measleDiameter = random( smallerDisplayDimesion*1/100, smallerDisplayDimesion*1/25); //Range of measle size: small=*1/100, large=4xbigger (*1/25)
   measleRadius = measleDiameter*1/2;
   measleX = random( rectFaceX+measleRadius, (( rectFaceX+rectFaceWidth ) - measleRadius ) );

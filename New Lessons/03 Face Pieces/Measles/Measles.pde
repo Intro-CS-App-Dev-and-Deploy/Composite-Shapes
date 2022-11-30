@@ -11,11 +11,11 @@ void setup() {
   //
   population();
   //Theme: i.e. Face (will work in portrait and landscape)
-  faceSetup();
-  eyes();
-  mouth();
-  nose();
-  measlesDynamic();
+  faceSetup(); //Teacher Lesson
+  eyes(); //Student created
+  mouth(); //Student created
+  nose(); //Student created
+  measlesDynamic(); //Teacher Lesson
   //Background Image (could be in draw too)
 }//End setup
 //

@@ -1,6 +1,8 @@
 //Global Variables
 int appWidth, appHeight;
 int reset=1;
+color resetWhite=#FFFFFF;
+Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
   //Display & Orientation
@@ -19,14 +21,23 @@ void draw() {
   //OS System Button
   //Start Button | Measles Reset Button
   //Theme: face & measles with different sizes and colours
-  measlesDynamic();
-  eyes();
-  mouth();
-  nose();
+  measlesDynamic(); //Teacher Lesson
+  //faceFeatures(); //Combine into one "void" procedure
+  eyes(); //Student Created
+  mouth(); //Student Created
+  nose(); //Student Created
 }//End draw
 //
 void keyPressed() {
   //KeyBoard Shortcuts
+  if ( key=='N' | key=='n' ) { 
+    if ( nightMode==false ) {
+      nightMode=true;
+    } else {
+      nightMode=false;
+    }
+  }
+  println("Night Mode Feature", nightMode);
 }//End keyPressed
 //
 void mousePressed() {

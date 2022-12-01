@@ -22,7 +22,6 @@ void draw() {
   //Start Button | Measles Reset Button
   //Theme: face & measles with different sizes and colours
   measlesDynamic(); //Teacher Lesson
-  println(measleX, measleY, measleDiameter, measleDiameter);
   //faceFeatures(); //Combine into one "void" procedure
   eyes(); //Student Created
   mouth(); //Student Created

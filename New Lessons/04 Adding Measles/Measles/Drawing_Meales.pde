@@ -12,7 +12,7 @@ void measlesDynamic() {
   measlesColour = ( nightMode==true) ? color( 255, random(0, 55), 0 ) : color( 255, random(0, 55), random(130) ) ;
   //measlesColour = color( 255, random(0, 55), random(130) ); 
   //most pink is range of blue 0-130 (i.e. 254, 44, 84)
-  //most red is reange of green 0-55
+  //most red is range of green 0-55
   //
   noStroke();
   fill(measlesColour);

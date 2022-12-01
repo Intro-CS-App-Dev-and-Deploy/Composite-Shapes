@@ -16,9 +16,3 @@ TEACHER Directed: adding the measles
 - use ternary operator to switch night mode measles colour
 - CAUTION: ternary should be applied to all colour pieces of face, background image, any forground images, text, and buttons with hover over
 - X & Y are chosen randomly in logical reactangle
-
-Advanced
-- Check if X & Y are inside equation for circle, give equation for circle
-- ( x-h )^2 + ( x-k )^2 = r^2
-- Note: h,k is centerX & centerY
-

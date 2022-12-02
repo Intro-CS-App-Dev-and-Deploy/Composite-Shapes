@@ -3,47 +3,46 @@ color measlesColour;
 //
 void measlesDynamic() {
   //
-  //Note: must include procedure for smallerDimension here and on Population, then change appHeight
-  //
-  measleDiameter = random ( appHeight*1/100, appHeight*1/25 ); //smallerDimension required
-  int measlesRadius = int(measleDiameter) * 1/2;
+  measleDiameter = random ( smallerDimension*1/100, smallerDimension*1/25 );
+  float measlesRadius = measleDiameter * 1/2;
   measleX = random( rectFaceX+measlesRadius, (rectFaceX+rectFaceWidth)-measlesRadius );
-  measlesXY_Check(measlesRadius, appHeight);
+  measlesY(measlesRadius, smallerDimension);
   measlesColour = ( nightMode==true) ? color( 255, random(0, 55), 0 ) : color( 255, random(0, 55), random(130) ) ;
   //
   noStroke();
   fill(measlesColour);
-  ellipse( measleX, measleY, measleDiameter, measleDiameter );
+  measlesXY_Check( faceDiameter*1/2, measlesRadius, smallerDimension);
+
   fill(resetWhite);
   stroke(reset);
 } //End measlesDynamic
 //
-void measlesXY_Check(int measlesRadius, int smallerDimension) {
-  measlesY(measlesRadius, smallerDimension);
-  println("here", measleY, measlesRadius, smallerDimension);
-  
-  float one = measleX-faceY;
-  float two = sq(one);
-  float three = sq( float(measlesRadius) );
-  float four = sqrt( three - two );
-  println( one, two, three, four );
-  
+void measlesXY_Check(float faceRadius, float measlesRadius, int smallerDimension) {
   /*
-  float minMax = sqrt( sq( float(measlesRadius) ) - sq( measleX-faceY ) );
-  float min = faceX - minMax;
-  float max = faceX + minMax;
-  println("here2", minMax, min, measleY, max);
-  while ( measleY>=min && measleY<=max ) {
-    minMax = sqrt( sq(measlesRadius) - sq( sq( measleX-faceY ) ) );
-    min = faceX - minMax;
-    max = faceX + minMax;
-    measlesY(measlesRadius, smallerDimension);
-  }
-  println("here3", min, measleY, max);
-  */
+  Note: equation of a circle on a coordinate plane
+   the four sections of the face (intersecting diameters) are behaving differently
+   Needs to be accounted for
+   */
+  float one = sq(measleX-faceX-measlesRadius);
+  float two = sq(measleY-faceY-measlesRadius);
+  float three = one+two;
+  float four = sq(faceRadius);
+  println( "Will work:", (three<=four), "\t\tWill not work:", (three>four)  );
+  if ( three<=four ) ellipse( measleX, measleY, measleDiameter, measleDiameter );
+  ;
+
+  /*while ( three>four ) {
+   measlesY(measlesRadius, smallerDimension);
+   one = sq(measleX-faceY);
+   two = sq(measleY-faceY);
+   three = one+two;
+   four = sq(faceRadius);
+   println("here");
+   }//End Check
+   */
 } //End measlesX&Y_Check
 //
-void measlesY(int measlesRadius, int smallerDimension) {
+void measlesY(float measlesRadius, int smallerDimension) {
   measleY = random( smallerDimension*0+measlesRadius, smallerDimension-measlesRadius);
 }//End measlesY
 //

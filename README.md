@@ -143,15 +143,17 @@ Change repository to follow teaching exemplars and ReadMe.txt files
 
 Dynamic Programs introduces IF-type rectangles and Button-Code
 - Theme for project, i.e. Measles on the Face, snow globe
-- Two start buttons with instructions (this will also introduce the rest button)
-- Quit Button
+- Drawing Text
+- Drawing Background Images with tint()
+- Drawing an Image (with and without Aspect Ratio)
+- 2-start buttons with instructions (this will also introduce the rest button of measles)
+- 1-Quit Button
 - Measles On-off Button
-- Drawing Shapes and Laying Shapes
+- Drawing and Laying Shapes
 - Repeating shape has variety of colour and size (i.e. circles do not overlap "off face")
   - Use mathematical formula (comparing diameters, distance formula, Pythagorean Therom)
-- Night Mode
-- Images and Text
-- Background Image with tint()
+  - I.e. equation of a circle
+- Night Mode (populating variable with ternary operator)
 
 ---
 

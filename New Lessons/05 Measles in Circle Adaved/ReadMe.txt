@@ -1,9 +1,7 @@
 
-CAUTION: Not working
+See this Private Repository for Explanation
 
-
-Advanced
-- Check if X & Y are inside equation for circle, give equation for circle
-- ( x-h )^2 + ( x-k )^2 = r^2
-- Note: h,k is centerX & centerY
+Must have fully formed Measles Program before explanations on this algorith ...
+- uses Pythagorean Thereom
+- (x-h)^2 + (y-k)^2 = r^2
 

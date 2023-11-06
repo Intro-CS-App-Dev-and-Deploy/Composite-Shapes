@@ -154,6 +154,9 @@ Dynamic Programs introduces IF-type rectangles and Button-Code
   - Use mathematical formula (comparing diameters, distance formula, Pythagorean Therom)
   - I.e. equation of a circle
 - Night Mode (populating variable with ternary operator)
+- Start Button
+- Stop Button
+
 
 ---
 
